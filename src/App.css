@@ -77,7 +77,10 @@
   display: flex;
   justify-content: space-around;
   place-items: center;
-  height: 20rem;
+  height: 25rem;
+  align-items: stretch;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .down,
@@ -86,8 +89,10 @@
 .quarter {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   place-items: center;
+  width: 30%;
+  margin: 0 auto;
 }
 
 .down__value,
@@ -107,10 +112,11 @@
 }
 
 .buttons {
-  width: 50%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .homeButtons__touchdown,
@@ -119,4 +125,15 @@
 .awayButtons__fieldGoal {
   margin: 1rem;
   border-radius: 4px;
+  width: 200px; 
+}
+
+.downButton,
+.quarterButton,
+.toGoButton,
+.ballOnButton {
+  margin: 1rem;
+  border-radius: 4px;
+  width: 100px; 
+  padding: 10px;
 }

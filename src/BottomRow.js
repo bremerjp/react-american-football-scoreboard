@@ -34,7 +34,6 @@ const BottomRow = () => {
         <button onClick={() => setQuarter(quarter + 1)} className="quarterButton">Quarter</button>
       </div>
     </div>
-    
   );
 };
 

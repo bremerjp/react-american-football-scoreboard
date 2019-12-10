@@ -4,7 +4,7 @@
 }
 
 .scoreboard {
-  width: 58%;
+  width: 60%;
   margin: 10rem auto;
   background-color: #0b5402;
   color: white;
@@ -16,7 +16,7 @@
 
 .topRow {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   place-items: center;
   /* height: 20rem; */
 }
@@ -76,11 +76,10 @@
 
 .bottomRow {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   place-items: center;
   height: 25rem;
   align-items: stretch;
-  width: 100%;
   margin: 0 auto;
 }
 
@@ -92,8 +91,8 @@
   flex-direction: column;
   justify-content: center;
   place-items: center;
-  width: 30%;
-  margin: 0 auto;
+  width: 25%;
+  text-align: center;
 }
 
 .down__value,

@@ -4,7 +4,7 @@
 }
 
 .scoreboard {
-  width: 58%;
+  width: 60%;
   margin: 10rem auto;
   background-color: #0b5402;
   color: white;
@@ -16,7 +16,7 @@
 
 .topRow {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   place-items: center;
   /* height: 20rem; */
 }
@@ -71,13 +71,16 @@
   background-color: var(--black);
   border: 2px solid white;
   border-radius: 6px;
+  width: 250px;
 }
 
 .bottomRow {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   place-items: center;
-  height: 20rem;
+  height: 25rem;
+  align-items: stretch;
+  margin: 0 auto;
 }
 
 .down,
@@ -86,8 +89,10 @@
 .quarter {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   place-items: center;
+  width: 25%;
+  text-align: center;
 }
 
 .down__value,
@@ -107,10 +112,11 @@
 }
 
 .buttons {
-  width: 50%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .homeButtons__touchdown,
@@ -119,4 +125,17 @@
 .awayButtons__fieldGoal {
   margin: 1rem;
   border-radius: 4px;
+  width: 200px; 
+}
+
+.downButton,
+.quarterButton,
+.toGoButton,
+.ballOnButton {
+  margin: 1rem;
+  border-radius: 4px;
+  width: 100px; 
+  padding: 10px;
+  background-color: white;
+  color: #0d0d0d;
 }
